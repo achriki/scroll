@@ -12,7 +12,7 @@ header{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(51, 182, 184, 0.6), rgba(0, 0, 0, 0.7)),
-    url(./images/saulo-mohana-wNz7_5EvUWU-unsplash.jpg) center/cover no-repeat;
+    url(./saulo-mohana-wNz7_5EvUWU-unsplash.jpg) center/cover no-repeat;
 }
 
 .navbar{

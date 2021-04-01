@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Recursive:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(51, 182, 184, 0.6), rgba(0, 0, 0, 0.7)),
+    url(./images/saulo-mohana-wNz7_5EvUWU-unsplash.jpg) center/cover no-repeat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+}
+.navbar .navLinks a{
+    text-decoration: none;
+    font-family: 'Recursive', sans-serif;
+    padding: 0.34rem;
+    font-size: 1.20rem;
+    color: white;
+}
+.navbar .logo img{
+    height: 80px;
+}
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14%;
+    align-items: center;
+    text-align: center;
+}
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container .content,.secondContainer .content{
+    width: 50%;
+    color: white;
+}
+.container .content h1,.secondContainer .content h1{
+    font-family: 'Recursive', sans-serif;
+    font-size: 60px;
+    padding: 3%;
+}
+.container .content p,.secondContainer .content p{
+    font-family: 'Recursive', sans-serif;
+    padding:2%;
+}
+.container .content .btnExplore{
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    background: transparent;
+    border: 0.6px solid white;
+    color: white;
+    padding: 15px 15px;
+    margin: 4%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container .content .btnExplore:hover{
+    transition: 0.4s;
+    color: #48cae4;
+    background-color: white;
+}
+.section {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;  
+}
+.section h1{
+    font-size: 40px;
+    font-family: 'Recursive', sans-serif;
+    color: #22223b;
+}
+.section h1 span{
+    color: #48cae4;
+}
+.AboutContainer{
+    width: 50%;
+    display: flex;
+    height: 50vh;
+    margin: 2% 0;
+    padding: 5%;
+    border: 3px solid #1d3557;
+    border-radius: 50px;
+}
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutText p{
+    font-family: 'Recursive', sans-serif;
+    width: 70%;
+    font-size: 23px;
+    line-height: 1.5;
+}
+.aboutText h3{
+    font-family: 'Recursive', sans-serif;
+    color: rgba(51, 182, 184, 0.6);
+    font-size: 27px;
+    margin:2% 0;
+    letter-spacing: 3px;
+}
+.aboutText h4{
+    font-family: 'Recursive', sans-serif;
+    color: rgba(51, 182, 184, 0.6);
+    font-size: 20px;
+    margin:2% 0;
+    letter-spacing: 2px;
+}
+.aboutImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutImage img{
+    width: 150%;
+    height: 80%;
+    border-radius: 15px;
+}
+.analytics{
+    height: 10vh;
+    color: #fff;
+    font-family: 'Recursive', sans-serif;
+    background:#40414199;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+
+}
+.analytics .cards{
+    text-align: center;
+}
+.analytics .cards div{
+    font-size: 35px;
+}
+.OfferContainer{
+    width: 600px;   
+    height: 60vh;
+    margin: 4% 1%;
+    border: solid #1d3557;
+    text-align: center;
+    border-radius: 50px;
+}
+.infoContainer{
+    width: 100%;
+}
+.infoContainer label{
+    font-family: 'Recursive', sans-serif;
+    font-size: 20px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoContainer .input{
+    padding: 14px;
+    font-family: 'Recursive', sans-serif;
+}
+.infoContainer tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.btn .scroll_link{
+    font-family: 'Recursive', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: 0.6px solid #1d3557;
+    color: #48cae4;
+    padding: 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn .scroll_link:hover{
+    transition: 0.4s;
+    color: #48cae4;
+    background-color: #1d3557;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    letter-spacing: 2px;
+    min-height: 10vh;
+    padding:0 4%;
+    background-color: #1d3557;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+}
+.scrollUp{
+    animation: scrollUp 1.5s ease infinite;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #2a9d8f;
+    border: transparent;
+    font-size: 35px;
+    border-radius: 0.35rem;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+}
+.scrollUp i{
+    padding: 8px;
+    color: #fff;
+}
+.fixed { 
+    position: fixed;
+    background-color: whitesmoke;
+}
+.fixed .navLinks a{
+    color:  #1d3557;
+}
+.fixed .navLinks a:hover{
+    color: #48cae4;
+}
+@keyframes scrollUp{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.08);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container .content h1,.secondContainer .content h1{
+        font-family: 'Recursive', sans-serif;
+        font-size: 40px;
+        padding: 3%;
+    }
+    .container .content,.secondContainer .content{
+        width: 100%;
+        color: white;
+    }
+    .AboutContainer{
+        width: 80%;
+        display: flex;
+        height: 70vh;
+        margin: 2% 0;
+        border: 1px solid #1d3557;
+        border-radius: 50px;
+    }
+    .AboutContainer img{
+        display: none;
+    }
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #tours img{
+        display: none;
+    }
+    .OfferContainer{
+        width: 100%;   
+        height: 86vh;
+        margin: 5% 0;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aboutText h4{
+        font-size: 15px;
+    }
+    .btn .scroll_link{
+        font-family: 'Recursive', sans-serif;
+        font-size: 20px;
+        background: transparent;
+        border: 0.6px solid #1d3557;
+        color: #48cae4;
+        padding: 15px 15px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .btn .scroll_link:hover{
+        transition: 0.4s;
+        color: #48cae4;
+        background-color: #1d3557;
+    }
+    header{
+        width: 110%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(51, 182, 184, 0.6), rgba(0, 0, 0, 0.7)),
+        url(./saulo-mohana-wNz7_5EvUWU-unsplash.jpg) center/cover no-repeat;
+    }
+}
